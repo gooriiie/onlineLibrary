@@ -1,0 +1,12 @@
+.featureCls{
+    font-weight: bold;
+}
+
+h1 {
+    color: cadetblue;
+}
+
+span {
+    display: inline-block;
+    width: 110px;
+}

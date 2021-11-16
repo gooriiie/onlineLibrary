@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./saveBook.js"></script>
+    <link rel="stylesheet" href="./saveBook.css">
+</head>
+<body>
+    <h1>도서 정보 저장하기</h1>
+    <div>
+        <form action="./saveBook.php" method="post">
+            <span class="featureCls">도서 이름</span><input type="text" id="name" name="name"><br><br>
+            <div>
+                <span class="featureCls">저자</span><input type="text" id="author" name="author[]">
+                <input type="button" id="authorAddBtn" name="authorAddBtn" value="저자 추가">
+                <input type="button" id="authorDeleteBtn" name="authorDeleteBtn" value="저자 삭제"><br><br>
+            </div>
+            <span class="featureCls">출판년월</span><input type="month" id="date" name="date"><br><br>
+            <span class="featureCls">출판사</span><input type="text" id="publisher" name="publisher"><br><br>
+            <span class="featureCls">미리보기 화일</span><input type="file" id="bookimage" name="bookimage"><br><br>
+            <input type="submit" id="saveBtn" name="submit" value="저장하기">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+#loginDiv{
+    text-align: right;
+    position: relative;
+    right: 5%;
+}
+
+#headerDiv {
+    text-align: right;
+    position: relative;
+    right: 5%;
+}
+
+#myid {
+    color: blue;
+    font-weight: bold;
+}
+
+#loginWindow{
+    position: absolute;
+    visibility: hidden;
+    border-radius: 5px;
+    background-color: lightblue;
+    width: 300px;
+    height: 180px;
+    box-sizing: border-box;
+    padding: 28px;
+    top: 50px;
+    left: 430px;
+}
+
+h2 {
+    text-align: center;
+    color: cadetblue;
+}
+
+#searchDiv{
+    text-align: center;
+}
+
+#resultDiv{
+    /* text-align: center; */
+    margin-top: 50px;
+}
+
+#rentalDiv{
+    /* text-align: center; */
+    margin-top: 50px;
+}
+
+#resultTable {
+    border: 1px solid #D5D5D5;
+    border-collapse: collapse;
+    margin-left: 90px;
+    width: 80%;
+}
+
+#rentalTable {
+    border: 1px solid #D5D5D5;
+    border-collapse: collapse;
+    margin-left: 90px;
+    width: 80%;
+}
+
+tr, td, th {
+    border: 1px solid #D5D5D5;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#resultTable th {
+    background-color: #2F9D27;
+    color: white;
+    height: 30px;
+}
+
+#rentalTable th {
+    background-color: #CC99FF;
+    color: white;
+    height: 30px;
+}
+
+#rentBtn {
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+#returnBookBtn {
+    margin-top: 30px;
+    margin-left: 90px;
+}

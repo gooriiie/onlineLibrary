@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./searchBook.css">
+</head>
+<body>
+    <div id="loginDiv">
+        <span id="myId"></span>
+        <button id="loginWindowOpenBtn">로그인</button>
+        <span id="myRental">대출정보</span>
+        <div id="loginWindow">
+            <form method="post">
+                id <input type="text" id="userId" name="userId"><br><br>
+                password <input type="text" id="userPw" name="userPw"><br><br>
+                <input type="button" id="submitBtn" name="type" value="Submit">
+                <input type="button" id="signInBtn" name="type" value="SignIn">
+                <input type="button" id="loginWindowCloseBtn" value="cancel">
+            </form>
+        </div>
+    </div>
+    <h2>도서 검색하기</h2>
+    <div id="searchDiv">
+        <input type="text" id="searchWord" name="searchWord" size="70">
+        <button id="searchBtn">검색</button>
+    </div>
+    <div id="resultDiv">
+        <table id="resultTable">
+            <tr>
+                <th>선택</th>
+                <th>제목</th>
+                <th>저자</th>
+                <th>출판년월일</th>
+                <th>출판사</th>
+                <th>화일</th>
+                <th>대출여부</th>
+            </tr>
+        </table>
+
+        <button id="rentBtn">대출하기</button>
+    </div>
+
+    <script src="./searchBook.js"></script>
+</body>
+</html>
